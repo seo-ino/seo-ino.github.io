@@ -15,9 +15,8 @@ npm run build   # خروجی در پوشه out
 | نام | کاربرد |
 | --- | --- |
 | `NEXT_PUBLIC_GA_ID` | شناسه Google Analytics 4 (`G-XXXXXXXXXX`) |
-| `NEXT_PUBLIC_GSC_VERIFICATION` | مقدار `XATTDDBgjIHFf0rof60yQnoqbWtYbVHMbGvguEJHkG4` تگ تأیید Search Console |
+| `NEXT_PUBLIC_GSC_VERIFICATION` | مقدار `content` تگ تأیید Search Console |
 
 با هر پوش به شاخه `main`، سایت خودکار منتشر می‌شود (`.github/workflows/deploy.yml`).
 
 
-<meta name="google-site-verification" content="XATTDDBgjIHFf0rof60yQnoqbWtYbVHMbGvguEJHkG4" />
