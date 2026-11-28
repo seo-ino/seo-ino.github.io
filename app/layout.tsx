@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import GoogleAnalytics from "@/components/GoogleAnalytics";
-import { site } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -39,7 +37,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="fa" dir="rtl">
       <body>
         {children}
-        <GoogleAnalytics />
       </body>
     </html>
   );
